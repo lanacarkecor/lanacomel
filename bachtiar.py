@@ -2,8 +2,8 @@ apple_price = 2
 #Berikan 10 ke variable money
 money=10
 
-input_count = input ('Mau berapa apol?: ')
-count = int (input_count)    
+input_count = input('Mau berapa apol?: ')
+count = int(input_count)    
 total_price=apple_price * count
 
 print('Anda akan membeli ' + str(count) + ' apel')
