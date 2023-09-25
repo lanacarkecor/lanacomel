@@ -8,5 +8,14 @@ total price apple_price* count
 
 print('Anda akan membeli ' + str(count) + ' apel')
 print('Harga total adalah ' + str(total price) + ' dolar')
+
+#Tambahkan control flow berdasarkan perbandingan antara money dan total price
 if(total price<money): 
-print('Anda telah membeli ' +str(input_count)+' apel')
+print('Anda telah membeli ' +str(input_count)+ ' apel')
+print('Uang Anda tinggal ' +str(total price-money)+ ' dolar' )
+elif (total prices==money):
+print('Anda telah membeli ' +str(input_count)+ ' apel')
+print('Dompet Anda kosong')
+else:
+print('Ulang Anda tidak mencukupi')
+print('Anda tidak dapat membeli apel sebanyak itu')
